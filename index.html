@@ -1,64 +1,323 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
+<title>Anniversary Project</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+    <style>
+        img 
+        { 
+            display: block;
+            margin: 0 auto;
+            border-radius: 8px;
+            width: 25%;
+           
+        }
+        body
+        {
+            background-color: midnightblue;
+        }
+        h2
+        {
+            color: white;
+        }
+    </style>
+</head>
 <body>
 
-    <h2 class="w3-center">Happy Annivarsary <h2>
+    <h2 class="w3-center">
+        The Story of Jesse and Christy Quinn
+    <h2>
 
-    <div class="w3-content w3-display-container">
-        <img class="mySlides" src="A.jpg" style="width:100%">
-        <img class="mySlides" src="B.jpg" style="width:100%">
-        <img class="mySlides" src="C_mountains.jpg" style="width:100%">
-        <img class="mySlides" src="D.jpg" style="width:100%">
-        <img class="mySlides" src="E.jpg" style="width:100%">
-        <img class="mySlides" src="F.jpg" style="width:100%">
-        <img class="mySlides" src="G.jpg" style="width:100%">
-        <img class="mySlides" src="H.jpg" style="width:100%">
-        <img class="mySlides" src="I.jpg" style="width:100%">
-        <img class="mySlides" src="J.jpg" style="width:100%">
-        <img class="mySlides" src="K.jpg" style="width:100%">
-        <img class="mySlides" src="L.jpg" style="width:100%">
-        <img class="mySlides" src="M.jpg" style="width:100%">
-        <img class="mySlides" src="N.jpg" style="width:100%">
-        <img class="mySlides" src="O.jpg" style="width:100%">
-        <img class="mySlides" src="P.jpg" style="width:100%">
-        <img class="mySlides" src="Q.jpg" style="width:100%">
-        <img class="mySlides" src="R.jpg" style="width:100%">
-        <img class="mySlides" src="S.jpg" style="width:100%">
-        <img class="mySlides" src="T.jpg" style="width:100%">
-        <img class="mySlides" src="U.jpg" style="width:100%">
-        <img class="mySlides" src="V.jpg" style="width:100%">
-        <img class="mySlides" src="W.jpg" style="width:100%">
-        <img class="mySlides" src="X.jpg" style="width:100%">
-        <img class="mySlides" src="Y.jpg" style="width:100%">
-        <img class="mySlides" src="Z.jpg" style="width:100%">
-        <img class="mySlides" src="ZA.jpg" style="width:100%">
+        <div class="w3-content w3-display-container">
 
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    </div>
+            <div class="w3-display-container mySlides">
+                <img src="A.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Once there was a young woman
+                </div>
+            </div>
 
-    <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+            <div class="w3-display-container mySlides">
+                <img src="B.jpeg" style="width: 35%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and a young man.
+                </div>
+            </div>
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
+            <div class="w3-display-container mySlides">
+                <img src="C.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and as they grew older
+                </div>
+            </div>
 
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-    </script>
+            <div class="w3-display-container mySlides">
+                <img src="D.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    they arrived at the same high school.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="E.jpeg" style="width: 45%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Jesse joined football
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="F.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Christy joined band.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="G.jpeg" style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   Then they fell in love.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="H.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Love found them at the young ages of fourteen and fifteen in their freshman and sophomore years of highschool.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="I.jpeg" style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Through the years they survived through many dances
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="J.jpeg"style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   in many beautiful outfits
+                </div>
+            </div>
+
+
+            <div class="w3-display-container mySlides">
+                <img src="L.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and eventually they got married!
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="M.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   The next year Joseph came along.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="O.jpeg" style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    He was so cute.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="P.jpeg"style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    But then came Jessica! 
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Q.jpeg" style="width: 30%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and they were even cuter together than apart.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="R.jpeg" style="width: 30%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    So let's just take a break to appreciate how beautiful these children are...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="S.jpeg" style="width: 30%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Oh man.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="T.jpeg" style="width: 45%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Yep.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="U.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   These are beautiful kids.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="V.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    I bet they grew up to be just as beautiful...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="W.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Alright break is over!
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="X.jpeg" style="width: 50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Jesse and Christy had a second marriage in the Catholic Church
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Y.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and the kids started school.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZA.jpeg">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Joseph made it through middle school
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="Z.jpeg" style="width:25%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and Jessica followed shortly after.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZB.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Then the kids were off to high school.
+                </div>
+            </div>
+
+
+            <div class="w3-display-container mySlides">
+                <img src="ZD.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   ...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZE.jpg" style="width:30%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    And then Joseph introduced Cassie to the Quinn Family
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZF.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and Joseph fell in love.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZH.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    ...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZI.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                   ...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZJ.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Suddenly there was a wedding to plan!
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZK.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    And it was beautiful!
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZL.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    Christy and Joseph shared a first dance
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZM.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    and both Jesse and Christy got schooled in their dancing skills by the young couple.
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZN.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    ...
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="ZP.jpg" style="width:50%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                    And Jesse and Christy's story is still only growing.
+                </div>
+            </div>
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n)
+                {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n)
+                {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++)
+                    {
+                      x[i].style.display = "none";
+                    }
+                    x[slideIndex-1].style.display = "block";
+                }
+            </script>
 
 </body>
 </html>
