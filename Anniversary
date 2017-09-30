@@ -8,10 +8,33 @@
     <h2 class="w3-center">Happy Annivarsary <h2>
 
     <div class="w3-content w3-display-container">
-        <img class="mySlides" src="img_fjords.jpg" style="width:100%">
-        <img class="mySlides" src="img_lights.jpg" style="width:100%">
-        <img class="mySlides" src="img_mountains.jpg" style="width:100%">
-        <img class="mySlides" src="img_forest.jpg" style="width:100%">
+        <img class="mySlides" src="A.jpg" style="width:100%">
+        <img class="mySlides" src="B.jpg" style="width:100%">
+        <img class="mySlides" src="C_mountains.jpg" style="width:100%">
+        <img class="mySlides" src="D.jpg" style="width:100%">
+        <img class="mySlides" src="E.jpg" style="width:100%">
+        <img class="mySlides" src="F.jpg" style="width:100%">
+        <img class="mySlides" src="G.jpg" style="width:100%">
+        <img class="mySlides" src="H.jpg" style="width:100%">
+        <img class="mySlides" src="I.jpg" style="width:100%">
+        <img class="mySlides" src="J.jpg" style="width:100%">
+        <img class="mySlides" src="K.jpg" style="width:100%">
+        <img class="mySlides" src="L.jpg" style="width:100%">
+        <img class="mySlides" src="M.jpg" style="width:100%">
+        <img class="mySlides" src="N.jpg" style="width:100%">
+        <img class="mySlides" src="O.jpg" style="width:100%">
+        <img class="mySlides" src="P.jpg" style="width:100%">
+        <img class="mySlides" src="Q.jpg" style="width:100%">
+        <img class="mySlides" src="R.jpg" style="width:100%">
+        <img class="mySlides" src="S.jpg" style="width:100%">
+        <img class="mySlides" src="T.jpg" style="width:100%">
+        <img class="mySlides" src="U.jpg" style="width:100%">
+        <img class="mySlides" src="V.jpg" style="width:100%">
+        <img class="mySlides" src="W.jpg" style="width:100%">
+        <img class="mySlides" src="X.jpg" style="width:100%">
+        <img class="mySlides" src="Y.jpg" style="width:100%">
+        <img class="mySlides" src="Z.jpg" style="width:100%">
+        <img class="mySlides" src="ZA.jpg" style="width:100%">
 
         <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
